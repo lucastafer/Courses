@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Test</title>
+</head>
+<body>
+    <h1>Email e Senha</h1>
+
+    <form>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="usermail" placeholder="E-mail">
+        <label for="password">Senha:</label>
+        <input type="password" id="password" name="password" placeholder="Password" required>
+        <input type="submit" name="" value="Click Me">
+    </form>
+    <br>
+    <h1>Hotel Feedback Form</h1>
+
+    <form method="get">
+        <h3>Are you outside or inside USA ?</h3>
+
+        <label for="inusa">Inside: </label>
+        <input type="radio" id="inusa" name="location" value="">
+        <label for="outusa">Outside: </label>
+        <input type="radio" id="outusa" name="location" value="">
+
+        <h3>How was your service ? (3 being the best)</h3>
+        <select name="stars">
+            <option value="Great">3</option>
+            <option value="Okay">2</option>
+            <option value="Bad">1</option>
+        </select>
+
+        <p>Any other Feedback?</p>
+
+          <textarea name="name" rows="8" cols="80"></textarea>
+          <input type="submit" name="" value="Submit Feedback">
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cadastro da Liga dos Astronautas</title>
+</head>
+<body>
+    <h3>Cadastro da Liga dos Astronautas</h3>
+    <form action="">
+        <div>
+            <label for="name">Nome: </label>
+            <input type="text" id="name" name="name">
+        </div>
+        <br>
+        <div>
+            <label for="email">E-mail: </label>
+            <input type="email" id="email" name="email"> - 
+        <label for="password">Senha: </label>
+        <input type="password" id="password" name="passowrd">
+        </div>
+        <br>
+        <div>
+            <label for="birthday">Data de nascimento: </label>
+            <input type="date" id="birthday" name="birthday"> - 
+            
+            <label for="photo">Foto: </label>
+            <input type="file" id="photo" name="photo">
+        </div>
+        <br>
+        <div>
+            <label for="nationality">Nacionalidade: </label>
+            <select name="nationality" id="nationality">
+                <option value="russian">Russa</option>
+                <option value="american">Americana</option>
+                <option value="brazilian">Brasileira</option>
+            </select> -
+            
+            Gênero:
+            <label for="female">F</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="male">M</label>
+            <input type="radio" name="gender" id="male" value="male">
+        </div>
+        <div>
+            <p>Suas principais qualidades:</p>
+            <input type="checkbox" name="int" id="int">Inteligência
+            <input type="checkbox" name="res" id="res">Resiliência
+            <input type="checkbox" name="physics" id="physics">Preparo físico
+            <input type="checkbox" name="edu" id="edu">Educação
+        </div>
+        <br>
+        <div>
+            <textarea name="description" id="description" cols="30" rows="10" placeholder="Por que você gostaria de ser astronauta ?"></textarea>
+        </div>
+        <br>
+        <input type="submit" value="Criar">
+    </form>
+</body>
+</html>

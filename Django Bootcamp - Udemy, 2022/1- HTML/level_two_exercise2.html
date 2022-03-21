@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Level Two - Exercício 2</title>
+</head>
+<body>
+    <h1>HTML Level Two - Exercício 2</h1>
+    <hr>
+    <h1>Course Sign Up Page</h1>
+    <p>Please note: First Name, Last Name, E-mail and Password are required.</p>
+
+    <form method="get">
+        <label for="first-name">First Name: </label>
+        <input type="text" id="first-name" name="first-name" required>
+        <label for="last-name">Last Name: </label>
+        <input type="text" id="last-name" name="last-name" required>
+
+        <br><br>
+
+        <label for="email">E-mail: </label>
+        <input type="email" id="email" name="email" placeholder="example@example.com" required>
+        <label for="password">Password: </label>
+        <input type="password" id="password" name="password" required>
+
+        <br><br>
+
+        <p>Are you over than 18 years old ?</p>
+        <label for="age">Yes:</label>
+        <input type="radio" id="yes" name="age">
+        <label for="age">No:</label>
+        <input type="radio" id="no" name="age">
+
+        <br><br>
+
+        <p>Do you have a Credit Card or Paypal ?</p>
+        <select name="payment">
+            <option name="credit-card">Credit Card</option>
+            <option name="paypal">PayPal</option>
+        </select>
+
+        <br><br>
+
+        <input type="submit" name="sign-up" value="Sign Up">
+    </form>
+</body>
+</html>
