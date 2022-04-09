@@ -1,0 +1,21 @@
+h1{
+    color: #c8ff00;
+    font-size: 80px;
+    border-color: blue;
+    border-width: 8px;
+    border-style:double;
+}
+h4{
+    color:gold;
+    font-size: 40px;
+    border: 2px dashed #FF0000
+}
+li{
+    color:rgb(0, 255, 200);
+    font-size: 30px;
+}
+body{
+    background-image: url("https://images-na.ssl-images-amazon.com/images/I/81wF2vIhjuL.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
